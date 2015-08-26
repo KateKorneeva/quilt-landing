@@ -1,0 +1,147 @@
+body {
+  color: #8f8f8f;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.head {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background: none;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+  top: -100px;
+  padding-bottom: 6px;
+  max-height: 50px;
+}
+
+/*@media only screen and (max-width: 766px) {
+  .head {
+    height: 200px;
+  }
+}*/
+
+.sticky {
+  background: rgba(30,30,30,0.85);
+  opacity: 1;
+  top: 0px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.head-nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+  float: right;
+  margin-top: -10px;
+}
+
+@media only screen and (max-width: 766px) {
+  .head-nav ul {
+    margin-bottom: 0;
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+  }
+  .head-nav ul p {
+    text-align: center;
+  }
+}
+
+.head-nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  width: 60px;
+  height: 70px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+  .head-nav ul li:nth-of-type(5) {
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .head-nav ul li {
+    margin-left: 10px;
+    height: auto;
+  }
+}
+
+.head-nav a {
+  color: #ddd;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.head-nav p {
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
+
+
+.banner {
+  background: url('header-bg.jpg') repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  min-height: 350px;
+  position: relative;
+  top: 60px;
+}
+
+@media only screen and (max-width: 766px) {
+  .banner {
+    min-height: 300px;
+  }
+}
+
+.hero {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(30,30,30,0.85);
+  border-top: 1px solid rgba(0,0,0,0.2);
+  max-width: 1000px;
+  max-height: 300px;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 766px) {
+  .hero {
+    min-height: 0;
+  }
+}
+
+.hero h1,
+.hero h2,
+.hero h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #dbd48b;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
