@@ -100,7 +100,7 @@ a {
 
 
 .banner {
-  background: url('header-bg.jpg') repeat center;
+  background: url('header-bg.jpg') repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
