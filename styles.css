@@ -181,3 +181,8 @@ a {
 .centered ul {
   text-align: left;
 }
+
+.col2 {
+  width: 50%;
+  float: left;
+}
