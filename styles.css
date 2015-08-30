@@ -125,7 +125,7 @@ a {
 }
 
 .banner {
-  background: url('header-bg.jpg') repeat center fixed;
+  background: url('img/header-bg.jpg') repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -185,4 +185,14 @@ a {
 .col2 {
   width: 50%;
   float: left;
+}
+
+.col3 {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.cat-img {
+  width: 90%;
 }
