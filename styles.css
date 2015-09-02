@@ -162,7 +162,7 @@ a {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 500px;
+  /*min-height: 500px;*/
 }
 
 @media only screen and (max-width: 766px) {
@@ -267,4 +267,9 @@ textarea:focus, input:focus {
 .avatar {
   border-radius: 50%;
   width: 150px;
+}
+
+.anchor {
+  position: absolute;
+  margin-top: -100px;
 }
