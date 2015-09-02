@@ -13,7 +13,7 @@ a {
   color: inherit;
 }
 
-button, input[type=submit] {
+button {
   background-color: #504F77;
   color: #efdf9b;
   border: none;
@@ -116,8 +116,9 @@ button, input[type=submit] {
 
 .head-nav a {
   color: #ddd;
+  font-size: 0.7em;
   text-transform: uppercase;
-  font-size: 11px;
+  font-weight: bold;
 }
 
 .head-nav p {
@@ -167,15 +168,12 @@ button, input[type=submit] {
 }
 
 .hero {
-  position: relative;
-  top: 50px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background: rgba(30,30,30,0.85);
+  background: rgba(30,30,30,0.6);
   border-top: 1px solid rgba(0,0,0,0.2);
-  max-width: 1000px;
-  max-height: 300px;
+  width: 900px;
   min-height: 200px;
 }
 
@@ -198,15 +196,40 @@ button, input[type=submit] {
 }
 
 .fast-order {
+  padding: 2em;
   margin: auto;
-  width: 500px;
+  width: 300px;
   margin-bottom: 100px;
   margin-top: 50px;
-  color: #504F77;
+  color: #ddd;
+  text-align: center;
+  font-size: 0.9em;
 }
 
 .fast-order input[type=text] {
-  float: right;
+  background-color: transparent;
+  padding: 0.3em;
+  margin-bottom: 1em;
+  border-style: none;
+  border-bottom: 1px solid #ddd;
+  width: 200px;
+  color: #dbd48b;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.fast-order input[type=submit] {
+  background-color: #dbd48b;
+  color: #333;
+  text-transform: uppercase;
+  border: none;
+  font-weight: bolder;
+  font-size: 0.9em;
+  padding: 10px;
+}
+
+textarea:focus, input:focus {
+  outline: 0;
 }
 
 .centered {
