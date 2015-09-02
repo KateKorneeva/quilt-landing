@@ -22,18 +22,18 @@ button, input[type=submit] {
   padding: 10px;
 }
 
-li {
+.content li {
   list-style: none;
   padding-left: 2em;
   padding-top: 0.4em;
   padding-bottom: 0.4em;
 }
 
-h2 {
+.content h2 {
   margin: 1.5em;
 }
 
-h3 {
+.content h3 {
   margin-top: 2em;
   margin-bottom: 1.3em;
 }
