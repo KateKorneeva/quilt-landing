@@ -1,6 +1,6 @@
 body {
   color: #4E4C65;
-  background: white;
+  background: #eee;
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -20,7 +20,7 @@ a {
   text-transform: uppercase;
 }
 
-.btn-call {
+.btn-blue {
   background-color: #504F77;
   color: #efdf9b;
   font-size: 0.8em;
