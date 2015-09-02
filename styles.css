@@ -251,6 +251,10 @@ textarea:focus, input:focus {
   text-align: center;
 }
 
+.col3 ul {
+  text-align: left;
+}
+
 .col3-2 {
   width: 60%;
   float: left;
@@ -258,4 +262,9 @@ textarea:focus, input:focus {
 
 .cat-img {
   width: 90%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
 }
