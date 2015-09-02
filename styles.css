@@ -1,14 +1,41 @@
 body {
-  color: #8f8f8f;
+  color: #4E4C65;
   background: white;
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+button, input[type=submit] {
+  background-color: #504F77;
+  color: #efdf9b;
+  border: none;
+  font-weight: bolder;
+  font-size: 1em;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+  padding-left: 2em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+h2 {
+  margin: 1.5em;
+}
+
+h3 {
+  margin-top: 2em;
+  margin-bottom: 1.3em;
 }
 
 .head {
@@ -25,12 +52,6 @@ a {
   max-height: 50px;
 }
 
-/*@media only screen and (max-width: 766px) {
-  .head {
-    height: 200px;
-  }
-}*/
-
 .sticky {
   background: rgba(30,30,30,0.85);
   opacity: 1;
@@ -40,11 +61,18 @@ a {
 
 .logo {
   float: left;
+  color: #dbd48b;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 @media only screen and (max-width: 766px) {
   .logo {
     display: none;
   }
+}
+
+.logo-img {
+  width: 100px;
 }
 
 .head-nav ul {
@@ -125,7 +153,7 @@ a {
 }
 
 .banner {
-  background: url('img/header-bg.jpg') repeat center fixed;
+  background: url('img/header-bg.jpg') center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -171,7 +199,14 @@ a {
 
 .fast-order {
   margin: auto;
-  width: 300px;
+  width: 500px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  color: #504F77;
+}
+
+.fast-order input[type=text] {
+  float: right;
 }
 
 .centered {
@@ -191,6 +226,11 @@ a {
   width: 30%;
   float: left;
   text-align: center;
+}
+
+.col3-2 {
+  width: 60%;
+  float: left;
 }
 
 .cat-img {
