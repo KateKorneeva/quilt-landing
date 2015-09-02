@@ -13,13 +13,22 @@ a {
   color: inherit;
 }
 
-button {
-  background-color: #504F77;
-  color: #efdf9b;
+.button {
   border: none;
   font-weight: bolder;
-  font-size: 1em;
   padding: 10px;
+  text-transform: uppercase;
+}
+
+.btn-call {
+  background-color: #504F77;
+  color: #efdf9b;
+  font-size: 0.8em;
+}
+
+.btn-call {
+  float: right;
+  clear: right;
 }
 
 .content li {
@@ -148,11 +157,6 @@ button {
 
 }
 
-.call-back {
-  float: right;
-  clear: right;
-}
-
 .banner {
   background: url('img/header-bg.jpg') center fixed;
   -webkit-background-size: cover;
@@ -218,14 +222,10 @@ button {
   text-align: center;
 }
 
-.fast-order input[type=submit] {
+.btn-order {
   background-color: #dbd48b;
   color: #333;
-  text-transform: uppercase;
-  border: none;
-  font-weight: bolder;
   font-size: 0.9em;
-  padding: 10px;
 }
 
 textarea:focus, input:focus {
