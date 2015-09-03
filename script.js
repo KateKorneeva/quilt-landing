@@ -17,4 +17,5 @@ $('nav a').click(function(event) {
         scrollTop: target
     }, 500);
     event.preventDefault();
+    console.log("dsfsdfsfsf");
 });
