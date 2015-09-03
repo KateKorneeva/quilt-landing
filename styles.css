@@ -15,14 +15,14 @@ a {
 
 .button {
   border: none;
+  border-radius: 15px;
   font-weight: bolder;
   padding: 10px;
   text-transform: uppercase;
 }
 
-.btn-blue {
+.btn-light {
   background-color: #f92;
-  /*background-color: #f9A020;*/
   color: #444;
   font-size: 0.8em;
 }
@@ -59,7 +59,6 @@ a {
   opacity: 0;
   top: -100px;
   padding-bottom: 6px;
-  max-height: 50px;
 }
 
 .sticky {
@@ -82,7 +81,7 @@ a {
 }
 
 .logo-img {
-  width: 100px;
+  height: 60px;
 }
 
 .head-nav ul {
@@ -91,6 +90,7 @@ a {
   text-align: center;
   float: right;
   margin: 0;
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 766px) {
@@ -139,6 +139,18 @@ a {
   width: 100%;
   max-width: 940px;
   margin: 15px auto;
+  position: relative;
+  overflow: hidden;
+  /* todo: clarify why "overflow: hidden;" works to make height depend on content*/
+}
+
+.row-header {
+  width: 100%;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
   position: relative;
   overflow: hidden;
   /* todo: clarify why "overflow: hidden;" works to make height depend on content*/
