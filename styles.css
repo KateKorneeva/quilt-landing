@@ -12,6 +12,10 @@ a {
   color: inherit;
 }
 
+ul {
+  -webkit-padding-start: 0;
+}
+
 .button {
   border: none;
   border-radius: 15px;
@@ -299,4 +303,8 @@ textarea:focus, input:focus {
 
 .even {
   background-color: #eaeaf0;
+}
+
+.img {
+  margin-top: 2%;
 }
