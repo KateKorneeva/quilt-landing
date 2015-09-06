@@ -22,6 +22,12 @@ ul {
   font-weight: bolder;
   padding: 10px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:focus {
+  background: #d72;
+  outline: none;
 }
 
 .btn-light {
