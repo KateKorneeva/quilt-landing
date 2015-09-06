@@ -37,7 +37,6 @@ ul {
 
 .content li {
   list-style: none;
-  padding-left: 2em;
   padding-top: 0.4em;
   padding-bottom: 0.4em;
 }
@@ -303,6 +302,7 @@ textarea:focus, input:focus {
 
 .even {
   background-color: #eaeaf0;
+  padding-bottom: 2em;
 }
 
 .img {
