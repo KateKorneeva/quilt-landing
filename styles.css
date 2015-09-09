@@ -326,3 +326,15 @@ textarea:focus, input:focus {
 .img {
   margin-top: 2%;
 }
+
+.price-list {
+  text-align: center;
+}
+
+.price-option {
+  display: inline-block;
+  margin-right: .5em;
+  margin-left: .5em;
+  width: 20%;
+  background-color: #fff;
+}
