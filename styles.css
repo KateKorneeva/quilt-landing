@@ -90,7 +90,7 @@ ul {
 }
 
 .logo-img {
-  height: 60px;
+  height: 63px;
 }
 
 .head-nav ul {
@@ -316,10 +316,9 @@ textarea:focus, input:focus {
   margin-top: -100px;
 }
 
-.span-free {
+.span-emph {
   font-weight: bold;
-  color: #559;
-  font-size: 1.2em;
+  color: #a32;
   text-transform: uppercase;
 }
 
