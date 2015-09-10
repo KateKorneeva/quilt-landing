@@ -375,3 +375,10 @@ textarea:focus, input:focus {
   width: 100%;
   height: 150px;
 }
+
+.digit {
+  font-size: 2em;
+  color: #a32;
+  /*font-weight: bold;*/
+  padding-right: 1em;
+}
