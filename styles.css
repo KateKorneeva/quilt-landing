@@ -382,3 +382,7 @@ textarea:focus, input:focus {
   /*font-weight: bold;*/
   padding-right: 1em;
 }
+
+.heart {
+  padding-right: 1em;
+}
