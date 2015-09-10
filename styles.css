@@ -370,3 +370,8 @@ textarea:focus, input:focus {
   padding-left: 2em;
   padding-right: 2em;
 }
+
+.formula {
+  width: 100%;
+  height: 150px;
+}
