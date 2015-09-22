@@ -39,6 +39,7 @@ ul {
 .btn-call {
   float: right;
   clear: right;
+  margin-top: .6em;
 }
 
 .content li {
@@ -89,7 +90,7 @@ ul {
 }
 
 .logo-img {
-  height: 60px;
+  height: 63px;
 }
 
 .head-nav ul {
@@ -171,20 +172,27 @@ ul {
 
 .about {
   float: left;
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+.webname {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #c32;
 }
 
 .contact {
   float: right;
-  text-align: right;
+  text-align: center;
 }
 
 .banner {
-  background: url('img/header-bg.jpg') center fixed;
+  /*background: url('img/header-bg.jpg') center fixed;*/
+  background: #333;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  min-height: 300px;
+  height: 300px;
 }
 
 @media only screen and (max-width: 766px) {
@@ -194,15 +202,12 @@ ul {
 }
 
 .hero {
-  position: relative;
-  top: 50px;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  background: rgba(30,30,30,0.6);
-  border-top: 1px solid rgba(0,0,0,0.2);
-  width: 900px;
-  min-height: 200px;
+  background: rgba(200,200,200,0.6);
+  border-top: 1px solid rgba(0,0,0,0);
+  width: 100%;
+  height: 100%;
+  /*min-height: 200px;*/
 }
 
 @media only screen and (max-width: 766px) {
@@ -260,8 +265,12 @@ textarea:focus, input:focus {
   text-align: center;
 }
 
-.centered ul {
+.align-left {
   text-align: left;
+}
+
+.align-right {
+  text-align: right;
 }
 
 .col2 {
@@ -291,6 +300,8 @@ textarea:focus, input:focus {
 
 .cat-img {
   width: 90%;
+  /*put box-shadow after hack is removed*/
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/ 
 }
 
 .cat {
@@ -307,10 +318,9 @@ textarea:focus, input:focus {
   margin-top: -100px;
 }
 
-.span-free {
+.span-emph {
   font-weight: bold;
-  color: #559;
-  font-size: 1.2em;
+  color: #a32;
   text-transform: uppercase;
 }
 
@@ -325,4 +335,54 @@ textarea:focus, input:focus {
 
 .img {
   margin-top: 2%;
+}
+
+.price-list {
+  text-align: center;
+}
+
+.price-option {
+  display: inline-block;
+  margin-right: .5em;
+  margin-left: .5em;
+  width: 20%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  /*for outlining one price*/
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+}
+
+.price-header {
+  -webkit-margin-before: .5em;
+  -webkit-margin-after: .5em;
+  font-weight: normal;
+}
+
+.price-value {
+  background-color: #fc9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-margin-before: 0em;
+  font-size: 1.1em;
+}
+
+.paddinged {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.formula {
+  width: 100%;
+  height: 150px;
+}
+
+.digit {
+  font-size: 2em;
+  color: #a32;
+  /*font-weight: bold;*/
+  padding-right: 1em;
+}
+
+.heart {
+  padding-right: 1em;
 }
