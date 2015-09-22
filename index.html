@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="font/css/quilt.css">
 	<link rel="stylesheet" type="text/css" href="font/css/quilt-codes.css">
 	<link rel="stylesheet" type="text/css" href="font/css/quilt-embedded.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src = "script.js"></script>
 </head>
 
@@ -192,8 +192,61 @@
 
 		<div class="catalog even">
 			<a class="anchor" name="catalog"></a>
-			<div class="row centered"><h3>Характеристики и цена</h3></div>
 
+			<div class="row centered"><h3>Каталог расцветок</h3></div> <!-- / row -->
+			<div class="row cat">
+				<div class="col3">
+					<h4>Мир прекрасен</h4>
+					<img class="cat-img" src="img/catalog/mir-prekrasen-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+				<div class="col3">
+					<h4>Излучение радости</h4>
+					<img class="cat-img" src="img/catalog/isluchenie-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+				<div class="col3">
+					<h4>Путь воина</h4>
+					<img class="cat-img" src="img/catalog/put-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+			</div> <!-- / row -->
+			<div class="row cat">
+				<div class="col3">
+					<h4>Ветер странствий</h4>
+					<img class="cat-img" src="img/catalog/veter-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+				<div class="col3">
+					<h4>О чем говорят девушки?</h4>
+					<img class="cat-img" src="img/catalog/ochem-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+				<div class="col3">
+					<h4>Исполнение желаний</h4>
+					<img class="cat-img" src="img/catalog/ispolnenie-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+			</div> <!-- / row -->
+			<div class="row cat">
+				<div class="col3">
+					<h4>Космическое путешествие</h4>
+					<img class="cat-img" src="img/catalog/kosmicheskoe-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+				<div class="col3">
+					<h4>Все золото мира</h4>
+					<img class="cat-img" src="img/catalog/vsezoloto-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+				<div class="col3">
+					<h4>Happy cats</h4>
+					<img class="cat-img" src="img/catalog/cats-s.jpeg">
+					<button class="button btn-add js-add-color">Добавить к заказу</button>
+				</div>
+			</div> <!-- / row -->
+
+			<div class="row centered"><h3>Характеристики и цена</h3></div>
 			<div class="row">
 				<div class="col2-center">
 					<p><span class="align-left"><i class="icon-right-big"></i>Верх: </span><span class="align-right">хлопок 100%</span></p>
@@ -228,51 +281,6 @@
 				</ul>
 			</div> <!-- / row -->
 
-			<div class="row centered">
-				<h3>Каталог расцветок</h3>
-			</div> <!-- / row -->
-			<div class="row cat">
-				<div class="col3">
-					<h4>Мир прекрасен</h4>
-					<img class="cat-img" src="img/catalog/mir-prekrasen-s.jpeg">
-				</div>
-				<div class="col3">
-					<h4>Излучение радости</h4>
-					<img class="cat-img" src="img/catalog/isluchenie-s.jpeg">
-				</div>
-				<div class="col3">
-					<h4>Путь воина</h4>
-					<img class="cat-img" src="img/catalog/put-s.jpeg">
-				</div>
-			</div> <!-- / row -->
-			<div class="row cat">
-				<div class="col3">
-					<h4>Ветер странствий</h4>
-					<img class="cat-img" src="img/catalog/veter-s.jpeg">
-				</div>
-				<div class="col3">
-					<h4>О чем говорят девушки?</h4>
-					<img class="cat-img" src="img/catalog/ochem-s.jpeg">
-				</div>
-				<div class="col3">
-					<h4>Исполнение желаний</h4>
-					<img class="cat-img" src="img/catalog/ispolnenie-s.jpeg">
-				</div>
-			</div> <!-- / row -->
-			<div class="row cat">
-				<div class="col3">
-					<h4>Космическое путешествие</h4>
-					<img class="cat-img" src="img/catalog/kosmicheskoe-s.jpeg">
-				</div>
-				<div class="col3">
-					<h4>Все золото мира</h4>
-					<img class="cat-img" src="img/catalog/vsezoloto-s.jpeg">
-				</div>
-				<div class="col3">
-					<h4>Happy cats</h4>
-					<img class="cat-img" src="img/catalog/cats-s.jpeg">
-				</div>
-			</div> <!-- / row -->
 		</div> <!-- / catalog -->
 
 		<div class="recommend odd">
@@ -334,7 +342,7 @@
 				<form class="fast-order">
 					<a class="anchor" name="order"></a>
 					<label for="name">Какая расцветка Вам понравилась:</label>
-					<input type="text" name="color" />
+					<input type="text" name="color" class="js-color" />
 					<br />
 					<label for="name">Какой размер Вас интересует:</label>
 					<input type="text" name="size" />

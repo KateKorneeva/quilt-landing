@@ -42,6 +42,10 @@ ul {
   margin-top: .6em;
 }
 
+.btn-add {
+  background-color: #aac;
+}
+
 .content li {
   list-style: none;
   padding-top: 0.4em;
