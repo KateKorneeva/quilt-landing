@@ -1,0 +1,388 @@
+body {
+  color: #446;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  -webkit-padding-start: 0;
+}
+
+.button {
+  border: none;
+  border-radius: 15px;
+  font-weight: bolder;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:focus {
+  background: #d72;
+  outline: none;
+}
+
+.btn-light {
+  background-color: #f92;
+  color: #444;
+  font-size: 0.8em;
+}
+
+.btn-call {
+  float: right;
+  clear: right;
+  margin-top: .6em;
+}
+
+.content li {
+  list-style: none;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+}
+
+.content h2 {
+  margin: 1.5em;
+}
+
+.content h3 {
+  margin-top: 2em;
+  margin-bottom: 1.3em;
+}
+
+.head {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background: none;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+  top: -100px;
+  padding-bottom: 6px;
+}
+
+.sticky {
+  background: rgba(30,30,30,0.9);
+  opacity: 1;
+  top: 0px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  float: left;
+  color: #dbd48b;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 766px) {
+  .logo {
+    display: none;
+  }
+}
+
+.logo-img {
+  height: 63px;
+}
+
+.head-nav ul {
+  list-style: none;
+  overflow: hidden;
+  text-align: center;
+  float: right;
+  margin: 0;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 766px) {
+  .head-nav ul {
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+  }
+  .head-nav ul p {
+    text-align: center;
+  }
+}
+
+.head-nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+  .head-nav ul li:nth-of-type(5) {
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .head-nav ul li {
+    margin-left: 10px;
+    height: auto;
+  }
+}
+
+.head-nav a {
+  color: #ddd;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.head-nav p {
+  margin: 0;
+}
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 15px auto;
+  position: relative;
+  overflow: hidden;
+  /* todo: clarify why "overflow: hidden;" works to make height depend on content*/
+}
+
+.row-header {
+  width: 100%;
+  max-width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+  /* todo: clarify why "overflow: hidden;" works to make height depend on content*/
+}
+
+.info {
+  width: 100%;
+  margin-top: 90px;
+}
+
+.about {
+  float: left;
+  margin-top: 10px;
+}
+
+.webname {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #c32;
+}
+
+.contact {
+  float: right;
+  text-align: center;
+}
+
+.banner {
+  /*background: url('img/header-bg.jpg') center fixed;*/
+  background: #333;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 300px;
+}
+
+@media only screen and (max-width: 766px) {
+  .banner {
+    min-height: 300px;
+  }
+}
+
+.hero {
+  text-align: center;
+  background: rgba(200,200,200,0.6);
+  border-top: 1px solid rgba(0,0,0,0);
+  width: 100%;
+  height: 100%;
+  /*min-height: 200px;*/
+}
+
+@media only screen and (max-width: 766px) {
+  .hero {
+    min-height: 0;
+  }
+}
+
+.hero h1,
+.hero h2,
+.hero h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #dbd48b;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.fast-order {
+  padding: 2em;
+  margin: auto;
+  width: 300px;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  color: #ddd;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.fast-order input[type=text] {
+  background-color: transparent;
+  padding: 0.3em;
+  margin-bottom: 1em;
+  border-style: none;
+  border-bottom: 1px solid #ddd;
+  width: 200px;
+  color: #dbd48b;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.btn-order {
+  background-color: #f9850e;
+  color: #222;
+  font-size: 0.9em;
+}
+
+textarea:focus, input:focus {
+  outline: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.col2 {
+  width: 50%;
+  float: left;
+}
+
+.col3 {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.col3 ul {
+  text-align: left;
+}
+
+.col3-2 {
+  width: 60%;
+  float: left;
+}
+
+.col4 {
+  width: 25%;
+  float: left;
+}
+
+.cat-img {
+  width: 90%;
+  /*put box-shadow after hack is removed*/
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/ 
+}
+
+.cat {
+  height: 330px; /* this is a hack!!! remove it later */
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.anchor {
+  position: absolute;
+  margin-top: -100px;
+}
+
+.span-emph {
+  font-weight: bold;
+  color: #a32;
+  text-transform: uppercase;
+}
+
+.odd {
+  /*background-color: #f0f0ea;*/
+}
+
+.even {
+  background-color: #eaeaf0;
+  padding-bottom: 2em;
+}
+
+.img {
+  margin-top: 2%;
+}
+
+.price-list {
+  text-align: center;
+}
+
+.price-option {
+  display: inline-block;
+  margin-right: .5em;
+  margin-left: .5em;
+  width: 20%;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  /*for outlining one price*/
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+}
+
+.price-header {
+  -webkit-margin-before: .5em;
+  -webkit-margin-after: .5em;
+  font-weight: normal;
+}
+
+.price-value {
+  background-color: #fc9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-margin-before: 0em;
+  font-size: 1.1em;
+}
+
+.paddinged {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.formula {
+  width: 100%;
+  height: 150px;
+}
+
+.digit {
+  font-size: 2em;
+  color: #a32;
+  /*font-weight: bold;*/
+  padding-right: 1em;
+}
+
+.heart {
+  padding-right: 1em;
+}
