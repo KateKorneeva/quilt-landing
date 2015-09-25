@@ -43,7 +43,7 @@
 
 			<div class="contact">
 				+7 985 975 59 58<br>quiltlada@gmail.com<br>
-				<button class="button btn-call btn-light"><i class="icon-right-big"></i>Заказать сейчас!<i class="icon-left-big"></i></button>
+				<a href="#order"><button class="button btn-call btn-light"><i class="icon-right-big"></i>Заказать сейчас!<i class="icon-left-big"></i></button></a>
 			</div>
 		</div> <!-- / row -->
 	</div>  <!-- / info -->
@@ -139,18 +139,11 @@
 			</div> <!-- / row -->
 
 
-			<div class="row centered"><button class="button btn-light"><i class="icon-right-big"></i>Хочу такое одеяло<i class="icon-left-big"></i></button></div>
+			<div class="row centered"><a href="#order"><button class="button btn-light"><i class="icon-right-big"></i>Хочу такое одеяло<i class="icon-left-big"></i></button></a></div>
 		</div> <!-- /for-you -->
 
 		<div class="advantage odd">
 			<a class="anchor" name="advantage"></a>
-			<!-- <div class="row centered"><h3>Подходящие размеры:</h3></div>
-			<div class="row">
-				<div class="col4"><p>Лайт<br>140*170 см</p></div>
-				<div class="col4"><p>Медиум<br>160*190 см</p></div>
-				<div class="col4"><p>Премиум<br>180*200 см</p></div>
-				<div class="col4"><p>Мега<br>200*220 см</p></div>
-			</div> --> <!-- / row -->
 			<div class="row centered">
 				<h3>Расчет стоимости одного одеяло-релакса:</h3>
 			</div> <!-- / row -->
@@ -198,51 +191,51 @@
 				<div class="col3">
 					<h4>Мир прекрасен</h4>
 					<img class="cat-img" src="img/catalog/mir-prekrasen-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 				<div class="col3">
 					<h4>Излучение радости</h4>
 					<img class="cat-img" src="img/catalog/isluchenie-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 				<div class="col3">
 					<h4>Путь воина</h4>
 					<img class="cat-img" src="img/catalog/put-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 			</div> <!-- / row -->
 			<div class="row cat">
 				<div class="col3">
 					<h4>Ветер странствий</h4>
 					<img class="cat-img" src="img/catalog/veter-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 				<div class="col3">
 					<h4>О чем говорят девушки?</h4>
 					<img class="cat-img" src="img/catalog/ochem-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 				<div class="col3">
 					<h4>Исполнение желаний</h4>
 					<img class="cat-img" src="img/catalog/ispolnenie-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 			</div> <!-- / row -->
 			<div class="row cat">
 				<div class="col3">
 					<h4>Космическое путешествие</h4>
 					<img class="cat-img" src="img/catalog/kosmicheskoe-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 				<div class="col3">
 					<h4>Все золото мира</h4>
 					<img class="cat-img" src="img/catalog/vsezoloto-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 				<div class="col3">
 					<h4>Happy cats</h4>
 					<img class="cat-img" src="img/catalog/cats-s.jpeg">
-					<button class="button btn-add js-add-color">Добавить к заказу</button>
+					<a href="#order" class="js-add-color"><button class="button btn-add">Добавить к заказу</button></a>
 				</div>
 			</div> <!-- / row -->
 
@@ -333,6 +326,7 @@
 		</div> <!-- / recommend -->
 
 		<div class="order-sec">
+			<a class="anchor" name="order"></a>
 			<div class="row centered"><h3>Заказать себе лоскутное одеяло</h3></div> <!-- / row -->
 			<div class="row">
 				<p>Сделай заказ прямо сейчас по телефону <span class="span-contact">+7 985 975 59 58</span> или по почте <span class="span-contact">quiltlada@gmail.com</span></p>
@@ -340,25 +334,27 @@
 			</div> <!-- / row -->
 			<div class="row centered">
 				<form class="fast-order">
-					<a class="anchor" name="order"></a>
 					<label for="name">Имя: <span class="req">*</span></label>
-					<input type="text" name="name" />
+					<input type="text" name="name" class="input-text" />
 					<br />
 					<label for="email">Email: <span class="req">*</span></label>
-					<input type="text" name="email" />
+					<input type="text" name="email" class="input-text" />
 					<br />
 					<label for="phone">Телефон: </label>
-					<input type="text" name="phone" />
+					<input type="text" name="phone" class="input-text" />
+					<br />
+					<label>Размер: </label>
+					<input type="checkbox" id="140" value="140*170 см" class="input-checkbox" /><label class="checkbox-label" for="140">140*170 см</label>
+					<input type="checkbox" id="160" value="160*190 см" class="input-checkbox" /><label class="checkbox-label" for="160">160*190 см</label>
+					<input type="checkbox" id="180" value="180*200 см" class="input-checkbox" /><label class="checkbox-label" for="180">180*200 см</label>
+					<input type="checkbox" id="200" value="200*220 см" class="input-checkbox" /><label class="checkbox-label" for="200">200*220 см</label>
 					<br />
 					<label for="name">Расцветка: </label>
-					<input type="text" name="color" class="js-color" />
-					<br />
-					<label for="name">Размер: </label>
-					<input type="text" name="size" />
-					<br />
+					<a class="link-to-cat" href="#catalog">(Выбрать расцветку)</a>
+					<p><textarea rows="5" cols="45" name="color" class="input-color js-color"></textarea></p>
+					<!-- <p><input type="text" name="color" class="input-color js-color" /></p> -->
 					<label for="name">Комментарий: </label>
-					<!-- <input type="text" name="comment" /> -->
-					<textarea rows="10" cols="45" name="text"></textarea>
+					<p><textarea rows="10" cols="45" name="comment"></textarea></p>
 					<br />
 					<button class="button btn-order"><i class="icon-right-big"></i>Заказать сейчас<i class="icon-left-big"></i></button>
 				</form>

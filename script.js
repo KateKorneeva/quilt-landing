@@ -1,6 +1,15 @@
 $(document).ready(function() {
 
-  $(".js-add-color").click(function() {
-  	$(".js-color").val($(this).siblings().text());
-  });
-})
+$(".js-color").val("");
+
+    $(".js-add-color").click(function() {
+
+      if ( $(".js-color").val().length == 0 ) {
+          $(".js-color").val($('.js-color').val() + $(this).siblings().text() );
+      }
+      else {
+        $(".js-color").val( $('.js-color').val() + ", " + $(this).siblings().text() );
+      }
+
+    });
+});

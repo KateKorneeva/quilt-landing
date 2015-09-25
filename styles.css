@@ -247,14 +247,31 @@ ul {
   display: inline-block;
 }
 
-.fast-order input[type=text] {
+.input-text, .input-checkbox {
+  font-size: 1em;
   padding: 0.3em;
+}
+
+.input-text {
   margin-bottom: 1em;
+  width: 200px;
   margin-left: 1em;
   border-style: none;
   border-bottom: 1px solid #ddd;
-  width: 200px;
-  font-size: 1.2em;
+}
+
+.input-checkbox {
+  margin-bottom: 1.6em;
+}
+
+.checkbox-label {
+  color: #000;
+  font-size: 0.9em;
+}
+
+.link-to-cat {
+  text-decoration: underline;
+  color: #aaa;
 }
 
 .btn-order {
