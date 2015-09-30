@@ -469,3 +469,7 @@ textarea:focus, input:focus {
 .for-you {
   padding-top: 20px;
 }
+
+.hidden {
+  display: none;
+}
