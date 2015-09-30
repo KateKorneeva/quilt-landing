@@ -80,7 +80,7 @@ ul {
 }
 
 .sticky {
-  background: rgba(50,50,70,0.9);
+  background: rgba(250,250,250,0.9);
   opacity: 1;
   top: 0px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
@@ -88,9 +88,6 @@ ul {
 
 .logo {
   float: left;
-  color: #dbd48b;
-  font-weight: bold;
-  font-size: 1.5em;
 }
 @media only screen and (max-width: 766px) {
   .logo {
@@ -143,10 +140,10 @@ ul {
 }
 
 .head-nav a {
-  color: #ddd;
-  font-size: 0.7em;
+  color: #444;
+  font-size: 0.9em;
   text-transform: uppercase;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .head-nav p {
@@ -375,15 +372,6 @@ textarea:focus, input:focus {
 
 .icon-heart-empty {
   color: #a32;
-}
-
-.odd {
-  /*background-color: #f0f0ea;*/
-}
-
-.even {
-  background-color: #eaeaf0;
-  padding-bottom: 2em;
 }
 
 .price-list {
