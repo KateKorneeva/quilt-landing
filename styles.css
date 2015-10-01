@@ -87,7 +87,7 @@ ul {
 }
 
 .sticky {
-  background: rgba(30,30,30,0.9);
+  background: rgba(250,250,250,0.9);
   opacity: 1;
   top: 0px;
   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.5);
@@ -95,9 +95,6 @@ ul {
 
 .logo {
   float: left;
-  color: #dbd48b;
-  font-weight: bold;
-  font-size: 1.5em;
 }
 @media only screen and (max-width: 766px) {
   .logo {
@@ -150,10 +147,10 @@ ul {
 }
 
 .head-nav a {
-  color: #ddd;
-  font-size: 0.7em;
+  color: #444;
+  font-size: 0.9em;
   text-transform: uppercase;
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .head-nav p {
@@ -202,7 +199,7 @@ ul {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  height: 350px;
+  height: 250px;
   margin-bottom: -20px;
 }
 
@@ -231,10 +228,14 @@ ul {
 
 .hero h1,
 .hero h2,
-.hero h3 {
-  font-weight: 100;
-  text-transform: uppercase;
+.hero h3,
+.hero h4 {
+  font-weight: lighter;
   color: #dbd48b;
+}
+
+.hero h1 {
+  text-transform: uppercase;
 }
 
 .hero h1 {
@@ -334,7 +335,6 @@ textarea:focus, input:focus {
 
 .cat-img {
   width: 90%;
-  /*height: 250px;*/
   margin-bottom: 20px; /* this way, 20px shadow is not cut*/
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -380,15 +380,6 @@ textarea:focus, input:focus {
 
 .icon-heart-empty {
   color: #a32;
-}
-
-.odd {
-  /*background-color: #f0f0ea;*/
-}
-
-.even {
-  background-color: #eaeaf0;
-  padding-bottom: 2em;
 }
 
 .price-list {
@@ -465,4 +456,13 @@ textarea:focus, input:focus {
 
 .for-you {
   padding-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.cat-name {
+  font-size: 0.9em;
+  font-weight: bold;
 }
