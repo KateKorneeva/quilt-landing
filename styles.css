@@ -16,7 +16,7 @@ ul {
   -webkit-padding-start: 0;
 }
 
-.button {
+.btn {
   border: none;
   border-radius: 15px;
   font-weight: bolder;
@@ -25,27 +25,34 @@ ul {
   cursor: pointer;
 }
 
-.button:focus {
+.btn:focus {
   background: #d72;
   outline: none;
 }
 
-.btn-light {
+.btn--light {
   background-color: #f92;
   color: #444;
   font-size: 0.8em;
 }
 
-.btn-call {
+.btn--call {
   float: right;
   clear: right;
   margin-top: .6em;
 }
 
-.btn-add {
+.btn--add {
   background-color: #aac;
   padding-right: 6%;
   padding-left: 6%;
+}
+
+.btn--order {
+  background-color: #f9850e;
+  color: #222;
+  font-size: 0.9em;
+  margin-top: 20px;
 }
 
 .content li {
@@ -158,8 +165,10 @@ ul {
   max-width: 940px;
   margin: 15px auto;
   position: relative;
-  overflow: hidden;
-  /* todo: clarify why "overflow: hidden;" works to make height depend on content*/
+  overflow: hidden; 
+  /* overflow:hidden elements will wrap around floating inner elements. 
+  Alternatively, you can use an element to clear the float, 
+  which will also make the surrounding element to wrap it's content.*/
 }
 
 .row-header {
@@ -171,7 +180,6 @@ ul {
   margin-bottom: 0px;
   position: relative;
   overflow: hidden;
-  /* todo: clarify why "overflow: hidden;" works to make height depend on content*/
 }
 
 .info {
@@ -182,12 +190,6 @@ ul {
 .about {
   float: left;
   margin-top: 10px;
-}
-
-.webname {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #c32;
 }
 
 .contact {
@@ -272,13 +274,6 @@ ul {
 .link-to-cat {
   text-decoration: underline;
   color: #aaa;
-}
-
-.btn-order {
-  background-color: #f9850e;
-  color: #222;
-  font-size: 0.9em;
-  margin-top: 20px;
 }
 
 textarea:focus, input:focus {
@@ -370,6 +365,19 @@ textarea:focus, input:focus {
   text-transform: uppercase;
 }
 
+.span-digit {
+  font-size: 2em;
+  color: #a32;
+  /*font-weight: bold;*/
+  padding-right: 1em;
+}
+
+.span-webname {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #c32;
+}
+
 .icon-heart-empty {
   color: #a32;
 }
@@ -388,7 +396,7 @@ textarea:focus, input:focus {
   margin-bottom: 50px;
 }
 
-.price-option {
+.price-list__option {
   display: inline-block;
   margin-right: .5em;
   margin-left: .5em;
@@ -399,13 +407,13 @@ textarea:focus, input:focus {
   /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
 }
 
-.price-header {
+.price-list__header {
   -webkit-margin-before: .5em;
   -webkit-margin-after: .5em;
   font-weight: normal;
 }
 
-.price-value {
+.price-list__value {
   background-color: #fc9;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -421,13 +429,6 @@ textarea:focus, input:focus {
 .formula {
   width: 100%;
   height: 150px;
-}
-
-.digit {
-  font-size: 2em;
-  color: #a32;
-  /*font-weight: bold;*/
-  padding-right: 1em;
 }
 
 .heart {
