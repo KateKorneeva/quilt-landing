@@ -56,6 +56,11 @@ ul {
   margin-top: 20px;
 }
 
+.btn--learn {
+  /*background-color: #f9850e;*/
+  text-decoration: underline;
+}
+
 .content li {
   /*list-style: none;*/
   padding-top: 0.4em;
@@ -361,7 +366,7 @@ textarea:focus, input:focus {
 }
 
 .span-emph {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .span-digit {
