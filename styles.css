@@ -462,6 +462,7 @@ textarea:focus, input:focus {
 }
 
 .cat-name {
-  font-size: 0.9em;
+  font-size: 0.7em;
   font-weight: bold;
+  text-transform: uppercase;
 }
