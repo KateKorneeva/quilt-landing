@@ -246,6 +246,11 @@ ul {
   font-size: 40px;
 }
 
+.bonus {
+  float: right;
+  text-align: right;
+}
+
 .fast-order {
   margin: auto;
   margin-bottom: 100px;
@@ -360,26 +365,30 @@ textarea:focus, input:focus {
   margin-top: -100px;
 }
 
-.span-emph, .span-contact {
+.span-contact {
   font-weight: bold;
-  color: #a32;
 }
 
 .span-emph {
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .span-digit {
   font-size: 2em;
-  color: #a32;
-  /*font-weight: bold;*/
   padding-right: 1em;
 }
 
 .span-webname {
   font-size: 1.2em;
   font-weight: bold;
-  color: #c32;
+}
+
+.span-contact, 
+.span-emph, 
+.span-digit,
+.span-webname {
+  color: #a32;
 }
 
 .icon-heart-empty {
