@@ -201,7 +201,7 @@ ul {
 }
 
 .banner {
-  background: url('img/header-bg.jpg') center fixed;
+  /*background: url('img/header-bg.jpg') center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
