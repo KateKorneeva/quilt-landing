@@ -89,7 +89,6 @@ ul {
   transition: all 0.5s;
   opacity: 0;
   top: -100px;
-  padding-bottom: 6px;
 }
 
 .sticky {
@@ -101,7 +100,10 @@ ul {
 
 .logo {
   float: left;
+  line-height: 0;
+  margin: 5px 0;
 }
+
 @media only screen and (max-width: 766px) {
   .logo {
     display: none;
@@ -109,46 +111,37 @@ ul {
 }
 
 .logo-img {
-  height: 63px;
+  height: 75px;
 }
 
 .head-nav ul {
   list-style: none;
   overflow: hidden;
   text-align: center;
-  float: right;
-  margin: 0;
-  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 @media only screen and (max-width: 766px) {
   .head-nav ul {
-    float: left;
-    text-align: left;
-    width: 100%;
-    padding: 0;
   }
   .head-nav ul p {
-    text-align: center;
   }
 }
 
 .head-nav ul li {
   display: inline-block;
   margin-left: 25px;
-  overflow: hidden;
 }
 
 @media only screen and (max-width: 400px) {
   .head-nav ul li:nth-of-type(5) {
-    margin-left: 45px;
   }
 }
 
 @media only screen and (max-width: 766px) {
   .head-nav ul li {
-    margin-left: 10px;
-    height: auto;
   }
 }
 
@@ -156,7 +149,6 @@ ul {
   color: #444;
   font-size: 0.9em;
   text-transform: uppercase;
-  /*font-weight: bold;*/
 }
 
 .head-nav p {
@@ -177,10 +169,7 @@ ul {
 .row-header {
   width: 100%;
   max-width: 940px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 10px;
-  margin-bottom: 0px;
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
 }
