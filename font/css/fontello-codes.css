@@ -1,0 +1,20 @@
+
+.icon-cancel-circled:before { content: '\e800'; } /* '' */
+.icon-cancel:before { content: '\e801'; } /* '' */
+.icon-cancel-circled2:before { content: '\e802'; } /* '' */
+.icon-right-big:before { content: '\e803'; } /* '' */
+.icon-left-big:before { content: '\e804'; } /* '' */
+.icon-right-open:before { content: '\e805'; } /* '' */
+.icon-left-open:before { content: '\e806'; } /* '' */
+.icon-right-circled:before { content: '\e807'; } /* '' */
+.icon-left-circled:before { content: '\e808'; } /* '' */
+.icon-angle-circled-left:before { content: '\e809'; } /* '' */
+.icon-angle-circled-right:before { content: '\e80a'; } /* '' */
+.icon-heart:before { content: '\e80b'; } /* '' */
+.icon-heart-empty:before { content: '\e80c'; } /* '' */
+.icon-star:before { content: '\e80d'; } /* '' */
+.icon-star-empty:before { content: '\e80e'; } /* '' */
+.icon-rouble:before { content: '\e80f'; } /* '' */
+.icon-dollar:before { content: '\e810'; } /* '' */
+.icon-euro:before { content: '\e811'; } /* '' */
+.icon-award:before { content: '\e812'; } /* '' */

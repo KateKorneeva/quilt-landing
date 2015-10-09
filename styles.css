@@ -482,7 +482,7 @@ textarea:focus, input:focus {
   text-align: center;
   top: 0;
   left: 0;
-  background: rgba(50,50,50,0.5);
+  background: rgba(150,150,150,0.5);
 }
 
 .lightbox img {
@@ -514,8 +514,7 @@ textarea:focus, input:focus {
 .lightbox__close {
   position: absolute;
   right: 8%;
-  background-color: #222;
-  color: #fff;
+  color: #222;
   border-radius: 50%;
   width: 40px;
   height: 40px;
@@ -523,6 +522,7 @@ textarea:focus, input:focus {
   text-align: center;
   vertical-align: middle;
   z-index: 4;
+  font-size: 2em;
 }
 
 

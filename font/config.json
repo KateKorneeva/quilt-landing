@@ -1,5 +1,5 @@
 {
-  "name": "quilt",
+  "name": "",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
@@ -9,49 +9,79 @@
     {
       "uid": "d73eceadda1f594cec0536087539afbf",
       "css": "heart",
-      "code": 59393,
+      "code": 59403,
       "src": "fontawesome"
     },
     {
       "uid": "f3dc2d6d8fe9cf9ebff84dc260888cdf",
       "css": "heart-empty",
+      "code": 59404,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "474656633f79ea2f1dad59ff63f6bf07",
+      "css": "star",
+      "code": 59405,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d17030afaecc1e1c22349b99f3c4992a",
+      "css": "star-empty",
+      "code": 59406,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "5211af474d3a9848f67f945e2ccaf143",
+      "css": "cancel",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0f4cae16f34ae243a6144c18a003f2d8",
+      "css": "cancel-circled",
       "code": 59392,
       "src": "fontawesome"
     },
     {
-      "uid": "a65ca48f3fe7d6e5c60edbd943f4fdb6",
-      "css": "left-circled2",
-      "code": 59403,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "d0673ef38e1c458a6de52aad2a2f800d",
-      "css": "right-circled2",
-      "code": 59404,
+      "uid": "2e2dba0307a502a8507c1729084c7ab5",
+      "css": "cancel-circled2",
+      "code": 59394,
       "src": "fontawesome"
     },
     {
       "uid": "d870630ff8f81e6de3958ecaeac532f2",
       "css": "left-open",
-      "code": 59402,
+      "code": 59398,
       "src": "fontawesome"
     },
     {
       "uid": "399ef63b1e23ab1b761dfbb5591fa4da",
       "css": "right-open",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8933c2579166c2ee56ae40dc6a0b4dc6",
+      "css": "angle-circled-left",
       "code": 59401,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "94089b37297572e936b0943bcfa041d3",
+      "css": "angle-circled-right",
+      "code": 59402,
       "src": "fontawesome"
     },
     {
       "uid": "555ef8c86832e686fef85f7af2eb7cde",
       "css": "left-big",
-      "code": 59395,
+      "code": 59396,
       "src": "fontawesome"
     },
     {
       "uid": "ad6b3fbb5324abe71a9c0b6609cbb9f1",
       "css": "right-big",
-      "code": 59394,
+      "code": 59395,
       "src": "fontawesome"
     },
     {
@@ -67,21 +97,27 @@
       "src": "fontawesome"
     },
     {
-      "uid": "8772331a9fec983cdb5d72902a6f9e0e",
-      "css": "scissors",
-      "code": 59396,
+      "uid": "ab656e280958018a7859eba9a1eabbc7",
+      "css": "award",
+      "code": 59410,
       "src": "fontawesome"
     },
     {
-      "uid": "1ee2aeb352153a403df4b441a8bc9bda",
-      "css": "calc",
-      "code": 59398,
+      "uid": "486b835e9eebf54eee78ed12b4291b86",
+      "css": "euro",
+      "code": 59409,
       "src": "fontawesome"
     },
     {
-      "uid": "f85affb51c357be83d187344c8c6e35c",
-      "css": "diamond",
-      "code": 59397,
+      "uid": "026007bd17bfc67f3fe013199676f620",
+      "css": "dollar",
+      "code": 59408,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "243424d56528e83e4fe9ef6e6347a2ef",
+      "css": "rouble",
+      "code": 59407,
       "src": "fontawesome"
     }
   ]

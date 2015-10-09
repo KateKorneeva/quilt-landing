@@ -42,5 +42,19 @@ $(document).ready(function() {
 
 	// Gallery
 
-	
+	$(document).keydown(function (e){ 
+		switch(e.keyCode) {
+			case 37:
+				$(".lightbox:target .js-prev").click();
+				break;
+			case 39:
+				$(".lightbox:target .js-next").click();
+				break;
+			case 27:
+				$(".lightbox:target .js-close-lightbox").click();
+				break;
+			default:
+			return; // Quit when this doesn't handle the key event.
+		}
+	});
 });
