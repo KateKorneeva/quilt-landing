@@ -7,10 +7,11 @@ $(document).ready(function() {
 	$(".js-add-color").click(function () {
 
 		if ( $(".js-color").val().length == 0 ) {
-				$(".js-color").val($('.js-color').val() + $(this).siblings().text() );
+			$(".js-color").val($('.js-color').val() + $(this).parent().find(".js-color-name").text() );
 		}
 		else {
-			$(".js-color").val( $('.js-color').val() + ", " + $(this).siblings().text() );
+			console.log( $('.js-color').val() + ", " + $(this).siblings().text() );
+			$(".js-color").val( $('.js-color').val() + ", " + $(this).parent().find(".js-color-name").text() );
 		}
 
 	});

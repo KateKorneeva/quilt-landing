@@ -73,7 +73,7 @@ ul {
   margin-top: 2em;
   margin-bottom: 1.3em;
   text-transform: uppercase;
-  font-weight: lighter;
+  /*font-weight: lighter;*/
   color: #a32;
 }
 
@@ -221,7 +221,7 @@ ul {
 .hero h2,
 .hero h3,
 .hero h4 {
-  font-weight: lighter;
+  /*font-weight: lighter;*/
 }
 
 .hero h1 {
@@ -293,8 +293,8 @@ textarea:focus, input:focus {
   float: left;
 }
 
-.col2-center {
-  width: 50%;
+.col3-center {
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -379,6 +379,11 @@ textarea:focus, input:focus {
 
 .icon-heart-empty {
   color: #a32;
+}
+
+.characterist {
+  list-style: none;
+  line-height: 1em;
 }
 
 .price-list {
@@ -466,9 +471,10 @@ textarea:focus, input:focus {
 }
 
 .cat-name {
-  font-size: 0.7em;
+  /*font-size: 0.8em;*/
   font-weight: bold;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
+  height: 3em;
 }
 
 
